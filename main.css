@@ -1,0 +1,80 @@
+body{
+background-color:gainsboro;
+
+
+}
+.navbar{
+    background-color: slategray;
+}
+
+.nav .nav-link.active{
+background-color: white;
+color:slategray;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover{
+    
+    
+    color: white;
+    
+    
+}
+.navbar-toggler{
+    background-color: white;
+}
+
+.slide{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+.carulsel-inner{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+
+
+.carousel-item{
+    width: 25%;
+    position: relative;
+}
+.carousel-item img{
+    width: 800px;
+}
+.col-md-5{
+display: table-cell;
+float: left;
+        }
+
+
+  .container{
+    width: 500px;
+    margin: auto;
+    
+
+  }
+  
+
+  .pt-5{
+    background-color:floralwhite;
+  }
+
+  .pt-6{
+background-color: gainsboro;
+  }
+
+  .col-md-8{
+    text-align: center;
+    margin: 0 auto;
+
+
+  }
+  .btn {
+    background-color: salmon;
+    color: white;
+  }
