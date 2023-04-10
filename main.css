@@ -1,73 +1,16 @@
 body {
 	background-color: gainsboro;
+	max-width: 100vw !important;
 }
 
 .navbar-titulo {
 	color: rgb(226, 196, 25);
-}
-
-.navbar {
-	background: linear-gradient(90deg, rgba(68, 95, 238, 1) 0%, rgba(64, 77, 196, 1) 24%, rgba(99, 125, 210, 1) 52%, rgba(145, 189, 217, 1) 100%);
-}
-
-.nav .nav-link.active {
-	background-color: white;
-	color: slategray;
-}
-
-.nav .nav-link,
-.navbar-brand,
-.navbar-brand:hover {
-	color: white;
-}
-
-.navbar-toggler {
-	background-color: white;
-}
-
-.slide {
-	margin: 0 auto;
-	width: 800px;
-	height: 400px;
-	overflow: hidden;
-}
-
-.carousel-inner {
-	width: 400%;
-	height: 400px;
-	display: flex;
-}
-
-.carousel-item {
-	width: 25%;
-	position: relative;
-}
-
-.carousel-item img {
-	width: 800px;
-}
-
-.col-md-5 {
-	display: table-cell;
-	float: left;
+	cursor: default;
 }
 
 .container {
-	width: 500px;
 	margin: auto;
-}
-
-.pt-5 {
-	background-color: floralwhite;
-}
-
-.pt-6 {
-	background-color: gainsboro;
-}
-
-.col-md-8 {
-	text-align: center;
-	margin: 0 auto;
+	width: 750px !important;
 }
 
 .btn {
@@ -86,22 +29,180 @@ body {
 	padding: 15px 0 15px 0;
 }
 
-.imagem {
-	padding-top: 60px;
-}
-
-.imagem-sobre {
-	padding-top: 10px;
-}
-
-.nav-item:hover {
-	background: rgba(221, 221, 221, 0.37);
-}
-
-.nav-item {
-	border-radius: 5px;
-}
-
 .row-items {
-	margin: 10px;
+	margin: 10px 0;
+}
+
+/* Navbar */
+
+nav {
+	z-index: 999;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	background: linear-gradient(90deg, rgba(68, 95, 238, 1) 0%, rgba(64, 77, 196, 1) 24%, rgba(99, 125, 210, 1) 52%, rgba(145, 189, 217, 1) 100%);
+}
+
+nav a {
+	cursor: pointer;
+}
+
+.logo img {
+	height: 50px;
+}
+
+.menu {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li {
+	margin-left: 20px;
+}
+
+.menu li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.hamburger {
+	display: none;
+	cursor: pointer;
+}
+
+.hamburger span {
+	display: block;
+	height: 3px;
+	width: 25px;
+	background-color: #fff;
+	margin-bottom: 5px;
+}
+
+/* Para esconder os botões em telas menores */
+@media only screen and (max-width: 768px) {
+	.menu {
+		display: none;
+	}
+
+	.hamburger {
+		display: block;
+	}
+
+	.content {
+		margin-top: 80px;
+	}
+
+	.show-menu {
+		display: flex;
+		flex-direction: column;
+		position: absolute;
+		top: 80px;
+		left: 0;
+		width: 100%;
+		background-color: #333;
+		padding: 20px;
+	}
+
+	.show-menu li {
+		margin: 10px 0;
+	}
+}
+
+/* Carrousel */
+#carousel {
+	margin-top: 120px;
+	margin-bottom: 40px;
+	display: flex;
+	justify-content: center;
+}
+
+.slider {
+	width: 100%;
+	max-width: calc(100vw - 250px);
+	height: calc(100vh - 150px);
+	/* max-width: 800px; */
+	/* height: 450px; */
+	position: relative;
+	overflow: hidden;
+	border-radius: 15px;
+}
+
+.slide {
+	width: 100%;
+	max-width: calc(100vw - 250px);
+	height: calc(100vh - 150px);
+	/* max-width: 800px; */
+	/* height: 450px; */
+	position: absolute;
+	transition: all 0.5s;
+}
+
+.slide img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.slider .btn {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	border: none;
+	border-radius: 50%;
+	z-index: 10px;
+	cursor: pointer;
+	background-color: #fff;
+	font-size: 18px;
+}
+
+.slider .btn:active {
+	transform: scale(1.1);
+}
+
+.slider .btn-prev {
+	top: 45%;
+	left: 1%;
+}
+
+.slider .btn-next {
+	top: 45%;
+	right: 1%;
+}
+
+#about {
+	background-color: floralwhite;
+}
+
+#about .container {
+	padding-top: 26px;
+}
+
+#about img {
+	width: 100%;
+	border-radius: 10px !important;
+}
+
+#origin_section img {
+	width: 100%;
+	border-radius: 10px !important;
+}
+
+#fale-conosco {
+	background-color: floralwhite;
+}
+
+#fale-conosco .container {
+	padding-top: 26px;
+}
+
+#fale-conosco .btn {
+	margin: 22px 0;
 }
