@@ -8,10 +8,10 @@ O projeto Desaparecidos APP foi pensado em um trabalho de faculdade, onde o obje
 # O projeto
 ![carroseul](https://github.com/gabrielgomes28/Desaparecidos-front-end/blob/main/Captura%20de%20Tela%20(5).png)
 
-![sobre a empresa] (https://github.com/gabrielgomes28/Desaparecidos-front-end/blob/main/Captura%20de%20Tela%20(6).png)
+![sobre a empresa](https://github.com/gabrielgomes28/Desaparecidos-front-end/blob/main/Captura%20de%20Tela%20(6).png)
 
-![como surgiu] (https://github.com/gabrielgomes28/Desaparecidos-front-end/blob/main/Captura%20de%20Tela%20(7).png)
-![formulário] (https://github.com/gabrielgomes28/Desaparecidos-front-end/blob/main/Captura%20de%20Tela%20(8).png)
+![como surgiu](https://github.com/gabrielgomes28/Desaparecidos-front-end/blob/main/Captura%20de%20Tela%20(7).png)
+![formulário](https://github.com/gabrielgomes28/Desaparecidos-front-end/blob/main/Captura%20de%20Tela%20(8).png)
 
 # front end e Framework
 
