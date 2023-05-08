@@ -18,10 +18,6 @@ O projeto Desaparecidos APP foi pensado em um trabalho de faculdade, onde o obje
 - HTML
 - CSS
 - BOOTSTRAP
-
-
-# back end
-
 -JavaScript
 
 
